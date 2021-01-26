@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 const HeaderBottomContent = () => {
     return (
         <header className="header-bottom-content bg-nero hidden-xs hidden-sm">
@@ -10,9 +15,12 @@ const HeaderBottomContent = () => {
                             <div className="menu-wrapper">
                                 <div className="menu-content">
                                     <ul className="menu-list">
+                                       
+                                    {/* <a href="#">Home</a> */}
                                         <li>
-                                            <a href="#">Home</a>
-                                            <ul className="sub-menu">
+                                        <Link to="/">Home</Link>
+                                            {/* <a href="#">Home</a> */}
+                                            {/* <ul className="sub-menu">
                                                 <li>
                                                     <a href="index.html">Home Layout One</a>
                                                 </li>
@@ -37,10 +45,11 @@ const HeaderBottomContent = () => {
                                                 <li>
                                                     <a href="index08.html">Home Layout Eight</a>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li>
-                                            <a href="booking.html">Booking</a>
+                                            <Link to="/booking">Booking</Link>
+                                            {/* <a href="booking.html"></a> */}
                                         </li>
                                         <li>
                                             <a href="#">House</a>

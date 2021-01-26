@@ -16,7 +16,7 @@ const index = () => {
             <SliderArea />
             <CategoryMenu />
             <AvailabilityArea />
-            <AboutUsArea />
+           
             <ApartmentsArea />
             <FunFactsArea />
             <GalleryArea />
@@ -24,7 +24,8 @@ const index = () => {
             <TestimonialArea />
             <ContactArea />
             <BlogArea />
-
+            <AboutUsArea />    {/* đưa phần này xuống dưới theo yêu cầu của thầy */}
+           
         </div >
     )
 }

@@ -1,5 +1,10 @@
 import React from 'react'
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 const HeaderTopArea = () => {
     return (
         <header className="header-area bg-nero hidden-xs hidden-sm">
@@ -8,9 +13,9 @@ const HeaderTopArea = () => {
                     <div className="row">
                         <div className="col-md-7 col-sm-7 mobile-center">
                             <div className="site-logo">
-                                <a href="index.html">
+                                <Link to="/">
                                     <img src="assets/images/logo.png" alt="site-logo" />
-                                </a>
+                                </Link>
                             </div>{/* /.site-logo */}
                         </div>{/* /.col-md-8 */}
                         <div className="col-md-5 col-sm-5 mobile-center">
