@@ -1,15 +1,45 @@
 import './App.css';
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
+import Routers from "./ruoters";
+
+
+// Api
+import staffsApi from "../src/api/StaffsApi";
+import React, { useState,useEffect } from "react";
+
+
 function App() {
+  const [getStaffs, setStaffs] = useState([]);
+
+  // hàm hiển thị
+  useEffect(() => {
+      console.log(staffsApi.getAllStaffs);
+    // fetch(staffsApi.getAllStaffs())
+    //   .then(response => response.json())
+    //   .then(data => setStaffs(data)
+    //   .then(console.log(getStaffs)));
+      
+    //
+    // const getStaffs = async () => {
+    //   try {
+    //     const staffs = await (await (await staffsApi.getAllStaffs()).data);
+    //     setStaffs(staffs);
+    //   } catch (error) {
+
+    //   }
+    // };
+    // getStaffs();
+  }, [])
+
   return (
     <div className="App">
 
+      <Routers
+        listStaffs={getStaffs}
 
-      <Header></Header>
-      <Home />
-      <Footer />
+      />
+
+
+
     </div>
   );
 }
