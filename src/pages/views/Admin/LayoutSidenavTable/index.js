@@ -3,7 +3,6 @@ import React from 'react'
 const LayoutSidenavTable = () => {
   return (
     <div>
-
       <main>
         <div className="container-fluid">
           <h1 className="mt-4">Dashboard</h1>

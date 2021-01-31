@@ -5,7 +5,8 @@ import {
     Route,
     Link
 } from "react-router-dom";
-const ListStaffs = (listStaffs) => {
+const ListStaffs = ({listStaffs}) => {
+    console.log(listStaffs)
     return (
         <div>
         {/* Bảng SP */}
@@ -50,11 +51,11 @@ const ListStaffs = (listStaffs) => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {/* {listStaffs.map((post, index) =>(
+                                    {listStaffs.map((post, index) =>(
                                         <tr key={index}> 
-                                            
+                                            <td>{post.name}</td>
                                         </tr>
-                                    ))} */}
+                                    ))}
                                 </tbody>
                             </table>
                             <div className="clearfix">

@@ -8,7 +8,7 @@ import Header from "../../components/Admin/Header";
 export default ({ children }) => {
   return (
 
-    <div class="sb-nav-fixed">
+    <div className="sb-nav-fixed">
       <Header />
       <div id="layoutSidenav">
         <Sidebar />

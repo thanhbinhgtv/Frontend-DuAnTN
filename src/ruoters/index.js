@@ -15,7 +15,7 @@ import Home from '../pages/views/Main/Home';
 import Booking from '../pages/views/Main/Booking';
 import ListStaffs from '../pages/views/Admin/ListStaffs';
 
-const ruoters = ( listStaffs) => {
+const ruoters = ({listStaffs}) => {
     return (
         <div>
             <Router>

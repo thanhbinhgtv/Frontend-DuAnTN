@@ -1,10 +1,10 @@
 import './App.css';
 import Routers from "./ruoters";
-
+import React, { useState,useEffect } from "react";
 
 // Api
 import staffsApi from "../src/api/StaffsApi";
-import React, { useState,useEffect } from "react";
+
 
 
 function App() {
@@ -12,11 +12,21 @@ function App() {
 
   // hàm hiển thị
   useEffect(() => {
-      console.log(staffsApi.getAllStaffs);
+      // console.log(staffsApi.getAllStaffs());
+      // console.log("hiep");
+
     // fetch(staffsApi.getAllStaffs())
     //   .then(response => response.json())
-    //   .then(data => setStaffs(data)
-    //   .then(console.log(getStaffs)));
+    //   .then(data => {
+    //     setStaffs(data);
+    //     console.log(data)
+    //   }
+    //   );
+
+      staffsApi.getAllStaffs()
+        .then(response => {
+          setStaffs(response.data);
+        });
       
     //
     // const getStaffs = async () => {
