@@ -1,7 +1,9 @@
 import './App.css';
 import Routers from "./ruoters";
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
+// thông báo
+import swal from 'sweetalert';
 // Api
 import staffsApi from "../src/api/StaffsApi";
 
@@ -12,44 +14,53 @@ function App() {
 
   // hàm hiển thị
   useEffect(() => {
-      // console.log(staffsApi.getAllStaffs());
-      // console.log("hiep");
 
-    // fetch(staffsApi.getAllStaffs())
+    // CÁI NÀY DÙNG HIỂN THỊ MÀ KHÔNG ĐƯỢC. KHÔNG HIỂU VÌ SAO :(
+    // fetch(staffsApi.getAllStaffs)
     //   .then(response => response.json())
-    //   .then(data => {
-    //     setStaffs(data);
-    //     console.log(data)
-    //   }
-    //   );
+    //   .then(data =>  this.setStaffs({data : data}));
 
-      staffsApi.getAllStaffs()
-        .then(response => {
-          setStaffs(response.data);
-        });
-      
-    //
-    // const getStaffs = async () => {
-    //   try {
-    //     const staffs = await (await (await staffsApi.getAllStaffs()).data);
-    //     setStaffs(staffs);
-    //   } catch (error) {
-
-    //   }
-    // };
-    // getStaffs();
+    //Hiển thị nhân viên
+    staffsApi.getAllStaffs()
+      .then(response => {
+        setStaffs(response.data);
+      });
   }, [])
+
+  // HÀM HIỂN THỊ NHÂN VIÊN
+  const onDeleteStaffs = (id) => {
+    console.log(id)
+    swal({
+      title: "Bạn có chắc không?",
+      text: "Xóa nhân viên khỏi danh sách!",
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    })
+      .then((willDelete) => {
+        if (willDelete) {
+          fetch(`${staffsApi.onDeleteStaffs}/${id}`, {
+            method: "DELETE",
+          })
+            .then(response => response.json())
+            .then(data => swal("Poof! Your imaginary file has been deleted!", {
+              icon: "success",
+            }));
+          const newStaffs = getStaffs.filter(post => post.id !== id);
+          setStaffs(newStaffs);
+        } else {
+          swal("Xóa thất bại!");
+        }
+      }
+      )
+  }
 
   return (
     <div className="App">
-
       <Routers
         listStaffs={getStaffs}
-
+        onDeleteStaffs={onDeleteStaffs}
       />
-
-
-
     </div>
   );
 }

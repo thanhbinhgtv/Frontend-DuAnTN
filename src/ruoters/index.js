@@ -15,7 +15,8 @@ import Home from '../pages/views/Main/Home';
 import Booking from '../pages/views/Main/Booking';
 import ListStaffs from '../pages/views/Admin/ListStaffs';
 
-const ruoters = ({listStaffs}) => {
+const ruoters = ({listStaffs, onDeleteStaffs}) => {
+    console.log(listStaffs)
     return (
         <div>
             <Router>
@@ -32,7 +33,7 @@ const ruoters = ({listStaffs}) => {
                                 </Route>
 
                                 <Route path="/admin/listStaffs" exact>
-                                   <ListStaffs listStaffs={listStaffs}/>
+                                   <ListStaffs listStaffs={listStaffs} onDeleteStaffs={onDeleteStaffs}/>
                                 </Route>
 
                             </Switch>

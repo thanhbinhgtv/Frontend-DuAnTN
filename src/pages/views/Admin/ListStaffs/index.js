@@ -5,8 +5,8 @@ import {
     Route,
     Link
 } from "react-router-dom";
-const ListStaffs = ({listStaffs}) => {
-    console.log(listStaffs)
+const ListStaffs = ({listStaffs,onDeleteStaffs}) => {
+    // console.log(listStaffs)
     return (
         <div>
         {/* Bảng SP */}
@@ -37,23 +37,52 @@ const ListStaffs = ({listStaffs}) => {
                                 <thead>
                                     <tr className="abc">
                                         <th>ID</th>
-                                        {/* <th>Email</th>
-                                        <th>Mật Khẩu</th>
-                                        <th>Tên Nhân Viên</th>
                                         <th>Mã định danh</th>
+                                        <th>Tên Nhân Viên</th>
+                                        <th>Email</th>
+                                        <th>Mật Khẩu</th>
                                         <th>Ngày Sinh</th>
                                         <th>Giới Tính</th>
                                         <th>Chức Vụ</th>
                                         <th>Địa Chỉ</th>
                                         <th>Số ĐT</th>
-                                        <th>Hình Ảnh</th> */}
-                                        {/* <th>Hành Động</th> */}
+                                        <th>Hình Ảnh</th>
+                                        <th>Hành Động</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     {listStaffs.map((post, index) =>(
                                         <tr key={index}> 
+                                            <td>{post.staffId}</td>
+                                            <td>{post.cardId}</td>
                                             <td>{post.name}</td>
+                                            <td>{post.email}</td>
+                                            <td>{post.pass}</td>
+                                            <td>{post.dob}</td>
+                                            <td>{post.gender = 1 ? "nam" : "nữ"}</td>
+                                            <td>{post.role = 1 ? "Admin" : "Nhân Viên"}</td>
+                                            <td>{post.address}</td>
+                                            <td>{post.phone}</td>
+                                            <td>{post.image}</td>
+                                            <td>
+                                                    <Link to="/detailproduct">
+                                                    {/* onClick={() => DetailProduct(post.id)}  */}
+                                                        <button className="view" title="View" data-toggle="tooltip">
+                                                            <i className="material-icons"></i>
+                                                        </button>
+                                                    </Link>
+                                                  
+                                                     <Link to="/EditProduct">
+                                                     {/* onClick={() => onEditProduct(post.id)} */}
+                                                        <button  className="edit" title="Edit" data-toggle="tooltip">
+                                                            <i className="material-icons"></i>
+                                                        </button>
+                                                    </Link> 
+                                                   
+                                                    <button  onClick={() => onDeleteStaffs(post.staffId)} className="delete" title="Delete" data-toggle="tooltip" >
+                                                       <i className="material-icons">Xóa</i>
+                                                    </button>
+                                                </td>
                                         </tr>
                                     ))}
                                 </tbody>
