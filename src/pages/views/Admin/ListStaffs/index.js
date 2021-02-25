@@ -18,7 +18,7 @@ const ListStaffs = () => {
         });
     }, [])
 
-    //HÀM HIỂN THỊ NHÂN VIÊN
+    //Hàm delete
     const onDeleteStaffs = (id) => {
         console.log(id)
         swal({
@@ -30,11 +30,11 @@ const ListStaffs = () => {
         })
         .then((willDelete) => {
             if (willDelete) {
-            fetch(`${StaffsApi.onDeleteStaffs}/${id}`, {
+            fetch(StaffsApi.getDeleteStaffs(id), {
                 method: "DELETE",
             })
                 .then(response => response.json())
-                .then(data => swal("Poof! Your imaginary file has been deleted!", {
+                .then(swal("Bạn đã xóa thành công", {
                 icon: "success",
                 }));
             const newStaffs = getStaffs.filter(post => post.id !== id);

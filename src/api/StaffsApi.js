@@ -5,7 +5,7 @@ const getAllStaffs = () => {
 };
 
 const getDeleteStaffs = (id) => {
-    return http.delete(`/super-admin/staffs/${id}`);
+    return http.delete("/super-admin/staffs/"+id);
 };
 
 export default {
