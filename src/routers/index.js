@@ -15,8 +15,8 @@ import Home from '../pages/views/Main/Home';
 import Booking from '../pages/views/Main/Booking';
 import ListStaffs from '../pages/views/Admin/ListStaffs';
 
-const ruoters = ({listStaffs, onDeleteStaffs}) => {
-    console.log(listStaffs)
+const routers = ({listStaffs, onDeleteStaffs}) => {
+    
     return (
         <div>
             <Router>
@@ -59,4 +59,4 @@ const ruoters = ({listStaffs, onDeleteStaffs}) => {
     )
 }
 
-export default ruoters
+export default routers

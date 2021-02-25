@@ -1,12 +1,51 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
 } from "react-router-dom";
-const ListStaffs = ({listStaffs,onDeleteStaffs}) => {
-    // console.log(listStaffs)
+import swal from 'sweetalert';
+import StaffsApi from '../../../../api/StaffsApi';
+
+const ListStaffs = ({}) => {
+    const [getStaffs, setStaffs] = useState([]);
+
+    // hàm hiển thị
+    useEffect(() => {
+        StaffsApi.getAllStaffs().then(response => {
+            setStaffs(response.data);
+        });
+    }, [])
+
+    //HÀM HIỂN THỊ NHÂN VIÊN
+    const onDeleteStaffs = (id) => {
+        console.log(id)
+        swal({
+        title: "Bạn có chắc không?",
+        text: "Xóa nhân viên khỏi danh sách!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+        })
+        .then((willDelete) => {
+            if (willDelete) {
+            fetch(`${StaffsApi.onDeleteStaffs}/${id}`, {
+                method: "DELETE",
+            })
+                .then(response => response.json())
+                .then(data => swal("Poof! Your imaginary file has been deleted!", {
+                icon: "success",
+                }));
+            const newStaffs = getStaffs.filter(post => post.id !== id);
+            setStaffs(newStaffs);
+            } else {
+            swal("Xóa thất bại!");
+            }
+        }
+        )
+    }
+
     return (
         <div>
         {/* Bảng SP */}
@@ -51,7 +90,7 @@ const ListStaffs = ({listStaffs,onDeleteStaffs}) => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {listStaffs.map((post, index) =>(
+                                    {getStaffs.map((post, index) =>(
                                         <tr key={index}> 
                                             <td>{post.staffId}</td>
                                             <td>{post.cardId}</td>
@@ -68,14 +107,14 @@ const ListStaffs = ({listStaffs,onDeleteStaffs}) => {
                                                     <Link to="/detailproduct">
                                                     {/* onClick={() => DetailProduct(post.id)}  */}
                                                         <button className="view" title="View" data-toggle="tooltip">
-                                                            <i className="material-icons"></i>
+                                                            <i className="material-icons">Chi Tiết</i>
                                                         </button>
                                                     </Link>
                                                   
                                                      <Link to="/EditProduct">
                                                      {/* onClick={() => onEditProduct(post.id)} */}
                                                         <button  className="edit" title="Edit" data-toggle="tooltip">
-                                                            <i className="material-icons"></i>
+                                                            <i className="material-icons">Cập Nhật</i>
                                                         </button>
                                                     </Link> 
                                                    

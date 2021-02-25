@@ -18,7 +18,7 @@ const Sidebar = () => {
               <div className="sb-nav-link-icon"><i className="fas fa-tachometer-alt" /></div>
                    Dashboard
             </a>
-            <div className="sb-sidenav-menu-heading">Interface</div>
+            <div className="sb-sidenav-menu-heading">Giao Diện Chức Năng</div>
             <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
               <div className="sb-nav-link-icon"><i className="fas fa-columns" /></div>
                 Layouts
@@ -50,13 +50,13 @@ const Sidebar = () => {
                   </nav>
                 </div>
                 <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                  Error
+                  Quản Lý Nhân Viên
               <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
                 </a>
                 <div className="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                   <nav className="sb-sidenav-menu-nested nav">
                     <Link className="nav-link" to="/admin/listStaffs">
-                      List Employees
+                      Danh Sách Nhân Viên
                     </Link>
                     <a className="nav-link" href="404.html">404 Page</a>
                     <a className="nav-link" href="500.html">500 Page</a>
