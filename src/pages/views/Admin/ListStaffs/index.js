@@ -8,7 +8,7 @@ import {
 import swal from 'sweetalert';
 import StaffsApi from '../../../../api/StaffsApi';
 
-const ListStaffs = ({}) => {
+const ListStaffs = () => {
     const [getStaffs, setStaffs] = useState([]);
 
     // hàm hiển thị

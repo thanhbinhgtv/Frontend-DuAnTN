@@ -7,15 +7,13 @@ import {
 } from "react-router-dom";
 
 import LayoutMain from "../pages/layouts/LayoutMain";
-
 import LayoutAdmin from "../pages/layouts/LayoutAdmin";
-
 import LayoutSidenavTable from '../pages/views/Admin/LayoutSidenavTable';
 import Home from '../pages/views/Main/Home';
 import Booking from '../pages/views/Main/Booking';
 import ListStaffs from '../pages/views/Admin/ListStaffs';
 
-const routers = ({listStaffs, onDeleteStaffs}) => {
+const routers = () => {
     
     return (
         <div>
@@ -33,7 +31,7 @@ const routers = ({listStaffs, onDeleteStaffs}) => {
                                 </Route>
 
                                 <Route path="/admin/listStaffs" exact>
-                                   <ListStaffs listStaffs={listStaffs} onDeleteStaffs={onDeleteStaffs}/>
+                                   <ListStaffs />
                                 </Route>
 
                             </Switch>
