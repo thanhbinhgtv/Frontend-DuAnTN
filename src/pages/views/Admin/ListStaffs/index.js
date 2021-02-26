@@ -10,17 +10,24 @@ import StaffsApi from '../../../../api/StaffsApi';
 
 const ListStaffs = () => {
     const [getStaffs, setStaffs] = useState([]);
-
-    // hàm hiển thị
+    
+    //Hàm hiển thị
+    //Chưa truyền được param
     useEffect(() => {
-        StaffsApi.getAllStaffs().then(response => {
-            setStaffs(response.data);
-        });
-    }, [])
+        const listStaffs = async () => {
+            try{
+                const param = {page: 0, limit: 2};
+                const response = await StaffsApi.getAllStaffs(param);
+                setStaffs(response.data);
+            }catch(error){
+                console.log("Failed to fetch Staffs list :", error);
+            }
+        }
+        listStaffs();
+      },[]);
 
     //Hàm delete
     const onDeleteStaffs = (id) => {
-        console.log(id)
         swal({
         title: "Bạn có chắc không?",
         text: "Xóa nhân viên khỏi danh sách!",
@@ -33,12 +40,13 @@ const ListStaffs = () => {
             fetch(StaffsApi.getDeleteStaffs(id), {
                 method: "DELETE",
             })
-                .then(response => response.json())
+                // .then(response => response.json())
                 .then(swal("Bạn đã xóa thành công", {
                 icon: "success",
                 }));
             const newStaffs = getStaffs.filter(post => post.id !== id);
             setStaffs(newStaffs);
+            window.location = "http://localhost:3000/admin/listStaffs";
             } else {
             swal("Xóa thất bại!");
             }

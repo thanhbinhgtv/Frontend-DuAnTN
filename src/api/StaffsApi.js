@@ -1,15 +1,14 @@
-import http from "./axiosHttp";
+import axiosHttp from "./axiosHttp";
 
-const getAllStaffs = () => {
-    return http.get("/super-admin/staffs");
-};
+const staffsAPI = {
+    getAllStaffs : (param) => {
+        return axiosHttp.get("/super-admin/staffs", { param });
+    },
+    
+    getDeleteStaffs : (id) => {
+    return axiosHttp.delete(`/super-admin/staffs/${id}`);
+    },
+}
 
-const getDeleteStaffs = (id) => {
-    return http.delete("/super-admin/staffs/"+id);
-};
-
-export default {
-    getAllStaffs,
-    getDeleteStaffs,
-  };
+export default staffsAPI;
   
