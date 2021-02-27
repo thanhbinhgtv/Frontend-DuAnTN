@@ -6,7 +6,7 @@ import {
     Link
 } from "react-router-dom";
 import swal from 'sweetalert';
-import StaffsApi from '../../../../api/StaffsApi';
+import StaffsApi from '../../../../../api/StaffsApi';
 
 const ListStaffs = () => {
     const [getStaffs, setStaffs] = useState([]);
@@ -84,10 +84,10 @@ const ListStaffs = () => {
                                 <thead>
                                     <tr className="abc">
                                         <th>ID</th>
-                                        <th>Mã định danh</th>
                                         <th>Tên Nhân Viên</th>
+                                        <th>CMT/CCCD</th>                                       
                                         <th>Email</th>
-                                        <th>Mật Khẩu</th>
+                                        {/* <th>Mật Khẩu</th> */}
                                         <th>Ngày Sinh</th>
                                         <th>Giới Tính</th>
                                         <th>Chức Vụ</th>
@@ -101,10 +101,10 @@ const ListStaffs = () => {
                                     {getStaffs.map((post, index) =>(
                                         <tr key={index}> 
                                             <td>{post.staffId}</td>
-                                            <td>{post.cardId}</td>
                                             <td>{post.name}</td>
+                                            <td>{post.cardId}</td>                                           
                                             <td>{post.email}</td>
-                                            <td>{post.pass}</td>
+                                            {/* <td>{post.pass}</td> */}
                                             <td>{post.dob}</td>
                                             <td>{post.gender = 1 ? "nam" : "nữ"}</td>
                                             <td>{post.role = 1 ? "Admin" : "Nhân Viên"}</td>
