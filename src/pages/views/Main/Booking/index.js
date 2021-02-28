@@ -38,28 +38,28 @@ const Booking = () => {
                 <div className="apartment-tab-area">
                   <ul role="tablist" className="nav nav-tabs apartment-menu hidden-xs hidden-sm">
                     <li className="active">
-                      <a href="#popular-apartment" role="tab" data-toggle="tab">Popular</a>
+                      <a href=" #popular-apartment" role="tab" data-toggle="tab">Popular</a>
                     </li>
                     <li>
-                      <a href="#newest-to-oldest" role="tab" data-toggle="tab">Date<span>Newest to oldest</span></a>
+                      <a href=" #newest-to-oldest" role="tab" data-toggle="tab">Date<span>Newest to oldest</span></a>
                     </li>
                     <li>
-                      <a href="#oldest-to-newest" role="tab" data-toggle="tab">Date <span>Older to newest</span> </a>
+                      <a href=" #oldest-to-newest" role="tab" data-toggle="tab">Date <span>Older to newest</span> </a>
                     </li>
                     <li>
-                      <a href="#price-height-to-low" role="tab" data-toggle="tab">Price<span>Low to high</span></a>
+                      <a href=" #price-height-to-low" role="tab" data-toggle="tab">Price<span>Low to high</span></a>
                     </li>
                     <li>
-                      <a href="#price-low-to-heigh" role="tab" data-toggle="tab">Price<span>high to low</span></a>
+                      <a href=" #price-low-to-heigh" role="tab" data-toggle="tab">Price<span>high to low</span></a>
                     </li>
                     <li className="pull-right">
-                      <a href="#" role="tab" className="dropdown-toggle" data-toggle="dropdown">Category<i className="fa fa-angle-down" /></a>
+                      <a href=" #" role="tab" className="dropdown-toggle" data-toggle="dropdown">Category<i className="fa fa-angle-down" /></a>
                       <ul className="dropdown-menu">
-                        <li><a href="#">Family</a></li>
-                        <li><a href="#">Apartment</a></li>
-                        <li><a href="#">Sublet</a></li>
-                        <li><a href="#">Bachelor Mess</a></li>
-                        <li><a href="#">Office</a></li>
+                        <li><a href=" #">Family</a></li>
+                        <li><a href=" #">Apartment</a></li>
+                        <li><a href=" #">Sublet</a></li>
+                        <li><a href=" #">Bachelor Mess</a></li>
+                        <li><a href=" #">Office</a></li>
                       </ul>
                     </li>{/* /.pull-right */}
                   </ul>
@@ -110,24 +110,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -162,24 +162,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -215,24 +215,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -268,24 +268,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -321,24 +321,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -373,24 +373,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -430,24 +430,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -486,24 +486,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -543,24 +543,24 @@ const Booking = () => {
                                 <div className="share-meta dropup pull-right">
                                   <ul>
                                     <li className="dropup">
-                                      <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                      <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                       <ul className="dropdown-menu">
                                         <li>
-                                          <a href="#"><i className="fa fa-facebook" /></a>
+                                          <a href=" #"><i className="fa fa-facebook" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-twitter" /></a>
+                                          <a href=" #"><i className="fa fa-twitter" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-instagram" /></a>
+                                          <a href=" #"><i className="fa fa-instagram" /></a>
                                         </li>
                                         <li>
-                                          <a href="#"><i className="fa fa-google-plus" /></a>
+                                          <a href=" #"><i className="fa fa-google-plus" /></a>
                                         </li>
                                       </ul>
                                     </li>
                                     <li>
-                                      <a href="#"><i className="fa fa-star-o" /></a>
+                                      <a href=" #"><i className="fa fa-star-o" /></a>
                                     </li>
                                   </ul>
                                 </div>
@@ -569,7 +569,7 @@ const Booking = () => {
                           </div>{/* /.partments-content */}
                         </div>{/* /.col-md-4 */}
                       </div>{/* /.row */}
-                      <a href="#" className="more-link default-template-gradient">Load More</a>
+                      <a href=" #" className="more-link default-template-gradient">Load More</a>
                     </div>{/* /.popular-apartment */}
                   </div>{/* /.tab-content */}
                 </div>{/* /.apartment-tab-area */}

@@ -2,7 +2,7 @@ import axiosHttp from "./axiosHttp";
 
 const staffsAPI = {
     getAllStaffs : (param) => {
-        return axiosHttp.get("/super-admin/staffs", { param });
+        return axiosHttp.get(`/super-admin/staffs?${param}`);
     },
     
     getDeleteStaffs : (id) => {

@@ -8,27 +8,27 @@ const HeaderOverlayContent = () => {
                 <button type="button" className="overlay-close">Close</button>
                 <nav>
                     <ul className="overlay-menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a>
+                        <li><a href=" #">Home</a></li>
+                        <li><a href=" #">About</a>
                             <ul className="sub-menu">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Work</a></li>
-                                <li><a href="#">Clients</a>
+                                <li><a href=" #">Home</a></li>
+                                <li><a href=" #">About</a></li>
+                                <li><a href=" #">Work</a></li>
+                                <li><a href=" #">Clients</a>
                                     <ul className="sub-menu">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Work</a></li>
-                                        <li><a href="#">Clients</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href=" #">Home</a></li>
+                                        <li><a href=" #">About</a></li>
+                                        <li><a href=" #">Work</a></li>
+                                        <li><a href=" #">Clients</a></li>
+                                        <li><a href=" #">Contact</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href=" #">Contact</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href=" #">Work</a></li>
+                        <li><a href=" #">Clients</a></li>
+                        <li><a href=" #">Contact</a></li>
                     </ul>
                 </nav>
             </div> {/* /.overlay-menu-item */}
@@ -39,7 +39,7 @@ const HeaderOverlayContent = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                <form action="#" method="get" className="searchform">
+                                <form action=" #" method="get" className="searchform">
                                     <div className="input-group" id="adv-search">
                                         <input type="text" className="form-controller" placeholder="Search for snippets" />
                                         <div className="input-group-btn">
@@ -75,8 +75,8 @@ const HeaderOverlayContent = () => {
             <div className="cd-user-modal">
                 <div className="cd-user-modal-container">
                     <ul className="cd-switcher">
-                        <li><a href="#0">Sign in</a></li>
-                        <li><a href="#0">New account</a></li>
+                        <li><a href=" #0">Sign in</a></li>
+                        <li><a href=" #0">New account</a></li>
                     </ul>
                     {/* log in form */}
                     <div id="cd-login">
@@ -89,7 +89,7 @@ const HeaderOverlayContent = () => {
                             <p className="fieldset">
                                 <label className="image-replace cd-password" htmlFor="signin-password">Password</label>
                                 <input className="full-width has-padding has-border" id="signin-password" type="text" placeholder="Password" />
-                                <a href="#0" className="hide-password">Hide</a>
+                                <a href=" #0" className="hide-password">Hide</a>
                                 <span className="cd-error-message">Error message here!</span>
                             </p>
                             <p className="fieldset">
@@ -101,9 +101,9 @@ const HeaderOverlayContent = () => {
                             </p>
                         </form>
                         <p className="cd-form-bottom-message">
-                            <a href="#0">Forgot your password?</a>
+                            <a href=" #0">Forgot your password?</a>
                         </p>
-                        <a href="#0" className="cd-close-form">Close</a>
+                        <a href=" #0" className="cd-close-form">Close</a>
                     </div> {/* cd-login */}
                     {/* sign up form */}
                     <div id="cd-signup">
@@ -121,18 +121,18 @@ const HeaderOverlayContent = () => {
                             <p className="fieldset">
                                 <label className="image-replace cd-password" htmlFor="signup-password">Password</label>
                                 <input className="full-width has-padding has-border" id="signup-password" type="text" placeholder="Password" />
-                                <a href="#0" className="hide-password">Hide</a>
+                                <a href=" #0" className="hide-password">Hide</a>
                                 <span className="cd-error-message">Error message here!</span>
                             </p>
                             <p className="fieldset">
                                 <input type="checkbox" id="accept-terms" />
-                                <label htmlFor="accept-terms">I agree to the <a href="#0">Terms</a></label>
+                                <label htmlFor="accept-terms">I agree to the <a href=" #0">Terms</a></label>
                             </p>
                             <p className="fieldset">
                                 <input className="full-width has-padding" type="submit" defaultValue="Create account" />
                             </p>
                         </form>
-                        <a href="#0" className="cd-close-form">Close</a>
+                        <a href=" #0" className="cd-close-form">Close</a>
                     </div> {/* cd-signup */}
                     {/* reset password form */}
                     <div id="cd-reset-password">
@@ -147,9 +147,9 @@ const HeaderOverlayContent = () => {
                                 <input className="full-width has-padding" type="submit" defaultValue="Reset password" />
                             </p>
                         </form>
-                        <p className="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+                        <p className="cd-form-bottom-message"><a href=" #0">Back to log-in</a></p>
                     </div> {/* cd-reset-password */}
-                    <a href="#0" className="cd-close-form">Close</a>
+                    <a href=" #0" className="cd-close-form">Close</a>
                 </div> {/* cd-user-modal-container */}
             </div> {/* cd-user-modal */}
         </div>

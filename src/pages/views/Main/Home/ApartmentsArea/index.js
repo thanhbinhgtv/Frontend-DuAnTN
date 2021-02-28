@@ -40,24 +40,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -92,24 +92,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -145,24 +145,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -198,24 +198,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -251,24 +251,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -303,24 +303,24 @@ const ApartmentsArea = () => {
                                     <div className="share-meta dropup pull-right">
                                         <ul>
                                             <li className="dropup">
-                                                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
+                                                <a href=" #" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i className="fa fa-share-alt" /></a>
                                                 <ul className="dropdown-menu">
                                                     <li>
-                                                        <a href="#"><i className="fa fa-facebook" /></a>
+                                                        <a href=" #"><i className="fa fa-facebook" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-twitter" /></a>
+                                                        <a href=" #"><i className="fa fa-twitter" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-instagram" /></a>
+                                                        <a href=" #"><i className="fa fa-instagram" /></a>
                                                     </li>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-google-plus" /></a>
+                                                        <a href=" #"><i className="fa fa-google-plus" /></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#"><i className="fa fa-star-o" /></a>
+                                                <a href=" #"><i className="fa fa-star-o" /></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -329,7 +329,7 @@ const ApartmentsArea = () => {
                         </div>{/* /.partments-content */}
                     </div>{/* /.col-md-4 */}
                 </div>{/* /.row */}
-                <a href="#" className="button nevy-button">All Apartments</a>
+                <a href=" #" className="button nevy-button">All Apartments</a>
             </div>{/* /.container */}
         </div>
 
