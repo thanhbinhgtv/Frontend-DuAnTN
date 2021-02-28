@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Pagination from '../../../../pagination/index'
+import Pagination from '../../../../../pagination/index'
 import queryString from 'query-string'
 import {
     BrowserRouter as 

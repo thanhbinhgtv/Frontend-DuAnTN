@@ -7,10 +7,8 @@ const staffsAPI = {
     
     getDeleteStaffs : (id) => {
     return axiosHttp.delete(`/super-admin/staffs/${id}`);
-    }
-
-    // getAddStaffs 
+    },
 }
 
-export default staffsAPI;
+export default staffsAPI
   
