@@ -56,7 +56,9 @@ const Sidebar = () => {
                     <Link className="nav-link" to="/admin/listStaffs">
                       Danh Sách Nhân Viên
                     </Link>
-                    <a className="nav-link" href="404.html">404 Page</a>
+                    <Link className="nav-link" to="/admin/addStaffs">
+                      Thêm nhân viên
+                    </Link>
                     <a className="nav-link" href="500.html">500 Page</a>
                   </nav>
                 </div>

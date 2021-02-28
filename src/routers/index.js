@@ -11,7 +11,9 @@ import LayoutAdmin from "../pages/layouts/LayoutAdmin";
 import LayoutSidenavTable from '../pages/views/Admin/LayoutSidenavTable';
 import Home from '../pages/views/Main/Home';
 import Booking from '../pages/views/Main/Booking';
-import ListStaffs from '../pages/views/Admin/ListStaffs';
+// NHÂN VIÊN
+import ListStaffs from '../pages/views/Admin/Staffs/ListStaffs';
+import AddStaffs from '../pages/views/Admin/Staffs/AddStaffs';
 
 const routers = () => {
     
@@ -32,6 +34,10 @@ const routers = () => {
 
                                 <Route path="/admin/listStaffs" exact>
                                    <ListStaffs />
+                                </Route>
+
+                                <Route path="/admin/addStaffs" exact>
+                                   <AddStaffs />
                                 </Route>
 
                             </Switch>
