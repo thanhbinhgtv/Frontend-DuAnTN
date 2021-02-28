@@ -27,7 +27,7 @@ const BlogArea = () => {
               </span>
                                     <span className="devied" />
                                     <span className="entry-category">
-                                        <a href="#">Rooms &amp; suites</a>
+                                        <a href=" #">Rooms &amp; suites</a>
                                     </span>
                                 </div>{/* /.entry-header */}
                                 <div className="entry-header">
@@ -36,8 +36,8 @@ const BlogArea = () => {
                                 <div className="entry-footer">
                                     <div className="entry-footer-meta">
                                         <span className="view"><i className="fa fa-eye" />35</span>
-                                        <span className="like"><a href="#"><i className="fa fa-heart-o" />09</a></span>
-                                        <span className="comments"><a href="#"><i className="fa fa-comments" />05</a></span>
+                                        <span className="like"><a href=" #"><i className="fa fa-heart-o" />09</a></span>
+                                        <span className="comments"><a href=" #"><i className="fa fa-comments" />05</a></span>
                                     </div>{/* /.entry-footer-meta */}
                                 </div>{/* /.entry-footer */}
                             </div>{/* /.post-content */}
@@ -57,7 +57,7 @@ const BlogArea = () => {
               </span>
                                     <span className="devied" />
                                     <span className="entry-category">
-                                        <a href="#">Rooms &amp; suites</a>
+                                        <a href=" #">Rooms &amp; suites</a>
                                     </span>
                                 </div>{/* /.entry-header */}
                                 <div className="entry-header">
@@ -66,8 +66,8 @@ const BlogArea = () => {
                                 <div className="entry-footer">
                                     <div className="entry-footer-meta">
                                         <span className="view"><i className="fa fa-eye" />35</span>
-                                        <span className="like"><a href="#"><i className="fa fa-heart-o" />09</a></span>
-                                        <span className="comments"><a href="#"><i className="fa fa-comments" />05</a></span>
+                                        <span className="like"><a href=" #"><i className="fa fa-heart-o" />09</a></span>
+                                        <span className="comments"><a href=" #"><i className="fa fa-comments" />05</a></span>
                                     </div>{/* /.entry-footer-meta */}
                                 </div>{/* /.entry-footer */}
                             </div>{/* /.post-content */}
@@ -87,7 +87,7 @@ const BlogArea = () => {
               </span>
                                     <span className="devied" />
                                     <span className="entry-category">
-                                        <a href="#">Rooms &amp; suites</a>
+                                        <a href=" #">Rooms &amp; suites</a>
                                     </span>
                                 </div>{/* /.entry-header */}
                                 <div className="entry-header">
@@ -96,8 +96,8 @@ const BlogArea = () => {
                                 <div className="entry-footer">
                                     <div className="entry-footer-meta">
                                         <span className="view"><i className="fa fa-eye" />35</span>
-                                        <span className="like"><a href="#"><i className="fa fa-heart-o" />09</a></span>
-                                        <span className="comments"><a href="#"><i className="fa fa-comments" />05</a></span>
+                                        <span className="like"><a href=" #"><i className="fa fa-heart-o" />09</a></span>
+                                        <span className="comments"><a href=" #"><i className="fa fa-comments" />05</a></span>
                                     </div>{/* /.entry-footer-meta */}
                                 </div>{/* /.entry-footer */}
                             </div>{/* /.post-content */}

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import Pagination from '../../../../../pagination/index'
+import queryString from 'query-string'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
+    BrowserRouter as 
     Link
 } from "react-router-dom";
 import swal from 'sweetalert';
@@ -10,21 +10,36 @@ import StaffsApi from '../../../../../api/StaffsApi';
 
 const ListStaffs = () => {
     const [getStaffs, setStaffs] = useState([]);
-    
+    const [pagination, setPagination] = useState({
+        page: 0,
+        limit: 2,
+        totalRows: 1,
+    });
+    const [filters, setFilters] = useState({
+        page: 0,
+        limit: 2,
+    })
+
+    function handlePageChange(newPage) {
+        setFilters({
+            ... filters,
+            page: newPage,
+        })
+    }
     //Hàm hiển thị
-    //Chưa truyền được param
     useEffect(() => {
         const listStaffs = async () => {
             try{
-                const param = {page: 0, limit: 2};
+                const param = queryString.stringify(filters);
                 const response = await StaffsApi.getAllStaffs(param);
                 setStaffs(response.data);
+                // setPagination(response);
             }catch(error){
                 console.log("Failed to fetch Staffs list :", error);
             }
         }
         listStaffs();
-      },[]);
+      },[filters]);
 
     //Hàm delete
     const onDeleteStaffs = (id) => {
@@ -37,12 +52,9 @@ const ListStaffs = () => {
         })
         .then((willDelete) => {
             if (willDelete) {
-            fetch(StaffsApi.getDeleteStaffs(id), {
-                method: "DELETE",
-            })
-                // .then(response => response.json())
-                .then(swal("Bạn đã xóa thành công", {
-                icon: "success",
+                StaffsApi.getDeleteStaffs(id)
+                    .then(swal("Bạn đã xóa thành công", {
+                    icon: "success",
                 }));
             const newStaffs = getStaffs.filter(post => post.id !== id);
             setStaffs(newStaffs);
@@ -142,13 +154,17 @@ const ListStaffs = () => {
                             <div className="clearfix">
                                 <div className="hint-text">Hiển thị <b>5</b> trong số <b>25</b> mục nhập</div>
                                 <ul className="pagination">
-                                    <li className="page-item disabled"><a href=" #"><i className="fa fa-angle-double-left" /></a></li>
+                                    <Pagination
+                                        pagination={pagination}
+                                        onPageChage={handlePageChange}
+                                    />
+                                    {/* <li className="page-item disabled"><a href=" #"><i className="fa fa-angle-double-left" /></a></li>
                                     <li className="page-item"><a href=" #" className="page-link">1</a></li>
                                     <li className="page-item"><a href=" #" className="page-link">2</a></li>
                                     <li className="page-item"><a href=" #" className="page-link">3</a></li>
                                     <li className="page-item"><a href=" #" className="page-link">4</a></li>
                                     <li className="page-item"><a href=" #" className="page-link">5</a></li>
-                                    <li className="page-item"><a href=" #" className="page-link"><i className="fa fa-angle-double-right" /></a></li>
+                                    <li className="page-item"><a href=" #" className="page-link"><i className="fa fa-angle-double-right" /></a></li> */}
                                 </ul>
                             </div>
                         </div>

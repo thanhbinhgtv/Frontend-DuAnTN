@@ -13,7 +13,7 @@ const SliderArea = () => {
                                     <h3 className="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Good Service is our passion</h3>
                                     <h2 className="pogoSlider-slide-element" data-in="slide-left" data-out="slideUp" data-duration={500} data-delay={500}>Awesome apartment Villa</h2>
                                     <p className="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>No matter what the weather, no matter what the situation we are in, if we have the right perspective in life, life will always be beautiful!</p>
-                                    <a href="#" className="button pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Special Offer</a>
+                                    <a href=" #" className="button pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Special Offer</a>
                                 </div>{/* /.text-content */}
                             </div>{/* /.col-md-12 */}
                         </div>{/* /.row */}
@@ -27,7 +27,7 @@ const SliderArea = () => {
                                     <h3 className="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Good Service is our passion</h3>
                                     <h2 className="pogoSlider-slide-element" data-in="slide-left" data-out="slideUp" data-duration={500} data-delay={500}>Awesome apartment Villa</h2>
                                     <p className="pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>No matter what the weather, no matter what the situation we are in, if we have the right perspective in life, life will always be beautiful!</p>
-                                    <a href="#" className="button pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Special Offer</a>
+                                    <a href=" #" className="button pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration={500} data-delay={500}>Special Offer</a>
                                 </div>{/* /.text-content */}
                             </div>{/* /.col-md-12 */}
                         </div>{/* /.row */}

@@ -17,16 +17,16 @@ const HeaderTopArea = () => {
                             <div className="left-content">
                                 <ul>
                                     <li>
-                                        <a href="#"><i className="fa fa-phone-square" />Call Us - 01623 030020</a>
+                                        <a href=" #"><i className="fa fa-phone-square" />Call Us - 01623 030020</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="cd-signin"><i className="fa fa-address-book" />Login / Register</a>
+                                        <a href=" #" className="cd-signin"><i className="fa fa-address-book" />Login / Register</a>
                                     </li>
                                     <li>
-                                        <a href="#" className="main-search"><i className="fa fa-search" /></a>
+                                        <a href=" #" className="main-search"><i className="fa fa-search" /></a>
                                     </li>
                                     <li>
-                                        <a href="#" className="trigger-overlay"><i className="fa fa-bars" /></a>
+                                        <a href=" #" className="trigger-overlay"><i className="fa fa-bars" /></a>
                                     </li>
                                 </ul>
                             </div>{/* /.left-content */}

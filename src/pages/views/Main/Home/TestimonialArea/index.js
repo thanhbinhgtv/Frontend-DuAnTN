@@ -14,8 +14,8 @@ const TestimonialArea = () => {
                         </div>{/* /.col-md-6 */}
                         <div className="col-md-6 col-sm-6 tb-cell">
                             <div className="contact-right-content">
-                                <h4><a href="#">+880123654987<span>company@gmail.com</span></a></h4>
-                                <a href="#" className="button">Contact us</a>
+                                <h4><a href=" #">+880123654987<span>company@gmail.com</span></a></h4>
+                                <a href=" #" className="button">Contact us</a>
                             </div>{/* /.contact-right-content */}
                         </div>{/* /.col-md-6 */}
                     </div>{/* /.row */}

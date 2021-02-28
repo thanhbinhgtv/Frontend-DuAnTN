@@ -1,9 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+    BrowserRouter as Link
   } from "react-router-dom";
 const HeaderBottomContent = () => {
     return (
@@ -52,7 +49,7 @@ const HeaderBottomContent = () => {
                                             {/* <a href="booking.html"></a> */}
                                         </li>
                                         <li>
-                                            <a href="#">House</a>
+                                            <a href=" #">House</a>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <a href="apartment.html">All Apartment</a>
@@ -63,7 +60,7 @@ const HeaderBottomContent = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Pages</a>
+                                            <a href=" #">Pages</a>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <a href="gallery.html">Our Gallery</a>
@@ -80,7 +77,7 @@ const HeaderBottomContent = () => {
                                             <a href="about.html">About</a>
                                         </li>
                                         <li>
-                                            <a href="#">Blog</a>
+                                            <a href=" #">Blog</a>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <a href="blog.html">Blog</a>

@@ -1,8 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
-  // Switch,
-  // Route,
+  BrowserRouter as Routers,
   Link
 } from "react-router-dom";
 
@@ -19,7 +17,7 @@ const Sidebar = () => {
                    Dashboard
             </a>
             <div className="sb-sidenav-menu-heading">Giao Diện Chức Năng</div>
-            <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+            <a className="nav-link collapsed" href=" #" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
               <div className="sb-nav-link-icon"><i className="fas fa-columns" /></div>
                 Layouts
                 <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
@@ -30,7 +28,7 @@ const Sidebar = () => {
                 <a className="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
               </nav>
             </div>
-            <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+            <a className="nav-link collapsed" href=" #" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
               <div className="sb-nav-link-icon"><i className="fas fa-book-open" /></div>
           Pages
           <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
@@ -38,7 +36,7 @@ const Sidebar = () => {
 
             <div className="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
               <nav className="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                <a className="nav-link collapsed" href=" #" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
                   Authentication
                    <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
                 </a>
@@ -49,7 +47,7 @@ const Sidebar = () => {
                     <a className="nav-link" href="password.html">Forgot Password</a>
                   </nav>
                 </div>
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                <a className="nav-link collapsed" href=" #" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
                   Quản Lý Nhân Viên
               <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down" /></div>
                 </a>

@@ -12,7 +12,7 @@ const HeaderMobileArea = () => {
                                 <div className="mobile-menu-main hidden-md hidden-lg">
                                     <div className="menucontent overlaybg" />
                                     <div className="menuexpandermain slideRight">
-                                        <a id="navtoggole-main" className="animated-arrow slideLeft menuclose">
+                                        <a href=" #" id="navtoggole-main" className="animated-arrow slideLeft menuclose">
                                             <span />
                                         </a>
                                         <span id="menu-marker" />
@@ -23,10 +23,10 @@ const HeaderMobileArea = () => {
                                             <div className="left-content">
                                                 <ul>
                                                     <li>
-                                                        <a href="#"><i className="fa fa-phone-square" />Call Us - 01623 030020</a>
+                                                        <a href=" #"><i className="fa fa-phone-square" />Call Us - 01623 030020</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#" className="cd-signin"><i className="fa fa-address-book" />Login / Register</a>
+                                                        <a href=" #" className="cd-signin"><i className="fa fa-address-book" />Login / Register</a>
                                                     </li>
                                                 </ul>
                                             </div>{/* /.left-content */}
@@ -42,10 +42,10 @@ const HeaderMobileArea = () => {
                                 </div>{/* /.site-logo */}
                             </div>{/* /.logo-area */}
                             <div className="search-block tb-cell">
-                                <a href="#" className="main-search"><i className="fa fa-search" /></a>
+                                <a href=" #" className="main-search"><i className="fa fa-search" /></a>
                             </div>{/* /.search-block */}
                             <div className="additional-content tb-cell">
-                                <a href="#" className="trigger-overlay"><i className="fa fa-sliders" /></a>
+                                <a href=" #" className="trigger-overlay"><i className="fa fa-sliders" /></a>
                             </div>{/* /.additional-content */}
                         </div>{/* /.mobile-header-block */}
                     </div>{/* /.col-md-12 */}
